@@ -7,6 +7,9 @@ import os
 import json
 import requests
 from typing import Optional
+from dotenv import load_dotenv
+
+load_dotenv()
 
 NOTION_API_URL = "https://api.notion.com/v1"
 NOTION_VERSION = "2022-06-28"
